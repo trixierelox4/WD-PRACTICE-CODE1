@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
 
     font-family: 'Arial', sans-serif;
     background-color: #E0F7FA;
@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 900px;
     margin: 50px auto;
-    background: #fff;
+    background: #ffffff96;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -23,7 +23,7 @@ body {
     border: 3px solid #42a5f5; /*  outer border */
 }
 
-header {
+.header {
     text-align: center;
     margin-bottom: 50px;
     display: flex;
@@ -31,7 +31,7 @@ header {
     align-items: center;
 }
 
-header img {
+header .img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -39,22 +39,22 @@ header img {
     margin-bottom: 15px;
     border: 4px solid #64b5f6;
 }
-header h1 {
+header .h1 {
     font-size: 40px;
     margin-bottom: 10px;
     color: #1565c0; /* blue */
 }
 
-header p {
+header .p {
     font-size: 20px;
     color: #5E92F3; /* Lighter blue*/
 }
 
-section {
+.section {
     margin-bottom: 40px;
 }
 
-h2 {
+.h2 {
     font-size: 26px;
     margin-bottom: 15px;
     color: #0d47a1; /* dark blue*/
@@ -68,12 +68,12 @@ h2 {
     margin-bottom: 5px;
 }
 
-ul {
+.ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-ul li {
+ul .li {
     background-color: #e3f2fd;
     margin: 5px 0;
     padding: 10px;
@@ -81,7 +81,7 @@ ul li {
     border-radius: 5px;
 }
 
-footer {
+.footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
